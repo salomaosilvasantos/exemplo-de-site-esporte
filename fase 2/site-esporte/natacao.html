@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Início</title>
+        <title>nataçao</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
@@ -23,67 +23,39 @@
                   <li class="nav-item"><a href="podcast.html" class="nav-link">Podcast</a></li>
                 </ul>
             </header>
-
-            <!--carossel-->
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="imagens/futebol.webp" alt="Minha Figura">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                    <div class="container">
-                      <div class="carousel-caption">
-                        <h1>Futebol</h1>
-                        <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="imagens/futebol.webp" alt="Futebol">
-                    <div class="container">
-                      <div class="carousel-caption">
-                        <h1>Volei</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="imagens/natacao.png" alt="Minha Figura">
-                    <div class="container">
-                      <div class="carousel-caption>
-                        <h1>Natação</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        
-            <!--banner e texto-->
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                  <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-                  <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+            <div class="row">
+              <div class="col-4">
+                <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+                  <a class="p-1 rounded" href="#simple-list-item-1">curiosidade 1</a>
+                  <a class="p-1 rounded" href="#simple-list-item-2">curiosidade 2</a>
+                  <a class="p-1 rounded" href="#simple-list-item-3">curiosidade 3</a>
+                  <a class="p-1 rounded" href="#simple-list-item-4">curiosidade 4</a>
+                  <a class="p-1 rounded" href="#simple-list-item-5">curiosidade 5</a>
                 </div>
               </div>
+              <div class="col-8">
+                <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                  <h4 id="simple-list-item-1">Item 1</h4>
+                  <p>Muito mais do que uma curiosidade, aqui nós temos um fato histórico. O esporte começou a se popularizar a partir de 1.700, ou seja, é um dos mais antigos do mundo.</p>
+                  <h4 id="simple-list-item-2">Item 2</h4>
+                  <p>Foi criado um Dia Mundial da Natação, que é 8 de abril. O principal objetivo é justamente disseminar o esporte, que é considerado um dos mais antigos e mais completos do mundo. Isso porque exige grande esforço de músculos do corpo todo. </p>
+                  <h4 id="simple-list-item-3">Item 3</h4>
+                  <p>E, apesar de só termos falado de uma ou duas categorias, hoje em dia existem 17 diferentes. Já quando se pensa em modalidades esportivas, como as que podem ser praticadas em Jogos Olímpicos, a gente tem 5 variações na natação e dá para misturar entre eles.
+
+                    Então, temos o medley, o borboleta, o peito, o costas e o livre. Geralmente, as equipes que competem se revezam entre si em uma distância de 100 metros e considerando 4 atletas. Mas, também dá para considerar 200 metros e por aí vai. </p>
+                  <h4 id="simple-list-item-4">Item 4</h4>
+                  <p> considere que a raspagem dos pelos de outras partes do corpo também faz sentido: diminuir o atrito com a água. Por isso, é muito comum saber que atletas nadadores fazem esse procedimento horas antes de entrar na água.
+                    Você pode achar isso um grande exagero, mas considere que alguns milésimos de segundo podem fazer toda a diferença dentro da piscina, ainda mais em competições acirradas. Inclusive, com o passar da prática, esse ritual se torna simples, natural, comum. 
+                  </p>
+                  <h4 id="simple-list-item-5">Item 5</h4>
+                  <p>Quando o assunto da natação vai para os termos olímpicos, aí a gente tem Estados Unidos como o principal país. Isso porque ele levou 1/3 de todas as medalhas atribuídas até aqui dentro do esporte. Ou seja, foram 520 medalhas durante os jogos</p>
+                </div>
+              </div>
+            </div>
+
+            
+        
+           
             
         <!--div que fecha container-->
         </div>
