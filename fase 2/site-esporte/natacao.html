@@ -6,7 +6,35 @@
         <title>nataçao</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
-    <body>
+    <div>
+      <style>
+        #img-4{
+          height: 500px;
+        }
+        #fundo-1{
+          background-color: rgb(197, 196, 196);
+          height: 700px;
+        }
+        #cards-1{
+          padding-top: 100px;
+        }
+        h2{
+          text-align: center;
+          padding-top: 20px;
+        }
+        #video-1{
+          padding-left: 25%;
+          width: 100%;
+          height: 100%;
+        }
+        h3{
+          padding-top: 50px;
+          text-align: center;
+        }
+        footer{
+          padding-top: 10%;
+        }
+      </style>
         <div class="container">
             <!--header-->
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
@@ -16,90 +44,215 @@
                 </a>
           
                 <ul class="nav nav-pills">
-                  <li class="nav-item"><a href="inicio.html" class="nav-link " aria-current="page">Início</a></li>
-                  <li class="nav-item"><a href="futebol.html" class="nav-link">Futebol</a></li>
+                  <li class="nav-item"><a href="inicio.html" class="nav-link" aria-current="page">Início</a></li>
+                  <li class="nav-item"><a href="futebol.html" class="nav-link ">Futebol</a></li>
                   <li class="nav-item"><a href="volei.html" class="nav-link">Volêi</a></li>
                   <li class="nav-item"><a href="natacao.html" class="nav-link active">Natação</a></li>
                   <li class="nav-item"><a href="podcast.html" class="nav-link">Podcast</a></li>
                 </ul>
             </header>
-
-            <!--lista de curiosidades-->
-            <div class="row">
-              <div class="col-4">
-                <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
-                  <a class="p-1 rounded" href="#simple-list-item-1">curiosidade 1</a>
-                  <a class="p-1 rounded" href="#simple-list-item-2">curiosidade 2</a>
-                  <a class="p-1 rounded" href="#simple-list-item-3">curiosidade 3</a>
-                  <a class="p-1 rounded" href="#simple-list-item-4">curiosidade 4</a>
-                  <a class="p-1 rounded" href="#simple-list-item-5">curiosidade 5</a>
-                </div>
-              </div>
-              <div class="col-8">
-                <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-                  <h4 id="simple-list-item-1">Item 1</h4>
-                  <p>Muito mais do que uma curiosidade, aqui nós temos um fato histórico. O esporte começou a se popularizar a partir de 1.700, ou seja, é um dos mais antigos do mundo.</p>
-                  <h4 id="simple-list-item-2">Item 2</h4>
-                  <p>Foi criado um Dia Mundial da Natação, que é 8 de abril. O principal objetivo é justamente disseminar o esporte, que é considerado um dos mais antigos e mais completos do mundo. Isso porque exige grande esforço de músculos do corpo todo. </p>
-                  <h4 id="simple-list-item-3">Item 3</h4>
-                  <p>E, apesar de só termos falado de uma ou duas categorias, hoje em dia existem 17 diferentes. Já quando se pensa em modalidades esportivas, como as que podem ser praticadas em Jogos Olímpicos, a gente tem 5 variações na natação e dá para misturar entre eles.
-
-                    Então, temos o medley, o borboleta, o peito, o costas e o livre. Geralmente, as equipes que competem se revezam entre si em uma distância de 100 metros e considerando 4 atletas. Mas, também dá para considerar 200 metros e por aí vai. </p>
-                  <h4 id="simple-list-item-4">Item 4</h4>
-                  <p> considere que a raspagem dos pelos de outras partes do corpo também faz sentido: diminuir o atrito com a água. Por isso, é muito comum saber que atletas nadadores fazem esse procedimento horas antes de entrar na água.
-                    Você pode achar isso um grande exagero, mas considere que alguns milésimos de segundo podem fazer toda a diferença dentro da piscina, ainda mais em competições acirradas. Inclusive, com o passar da prática, esse ritual se torna simples, natural, comum. 
-                  </p>
-                  <h4 id="simple-list-item-5">Item 5</h4>
-                  <p>Quando o assunto da natação vai para os termos olímpicos, aí a gente tem Estados Unidos como o principal país. Isso porque ele levou 1/3 de todas as medalhas atribuídas até aqui dentro do esporte. Ou seja, foram 520 medalhas durante os jogos</p>
-                </div>
+            <!--card primeira imagem-->
+            <div class="card bg-dark text-white">
+              <img src="imagens/area.png" class="card-img"id=img-4 alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
               </div>
             </div>
-            <!--card e textos-->
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/desenho_natacao.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                  </div>
+
+            <!--heroes-->
+            <div class=" col-xxl-8 px--4 py5">
+              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="-col10 col-sm-8 col-lg-6">
+                  <img src="imagens/natacao.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="800" height="500" loading="lazy">
                 </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/desenho_natação1.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="imagens/desenho_natacao3.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">história da nataçao</h1>
+                  <p class="lead">A natação é uma atividade física baseada na capacidade humana de se locomover na água (nadar). Há relatos e indícios da prática do nado há milhares de anos.
+
+                    Como esporte, a natação aparece em competições desde meados do século XIX. Está presente também desde a primeira Olimpíada da era moderna em 1896, possuindo uma grande evolução ao longo do tempo.</p>
+                  <div class="d-grid gap-2 d-md-flex">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                    
                   </div>
                 </div>
               </div>
             </div>
-            
+          
+
+            <div class="b-example-divider"></div>
         
+            <!--card de seis tópicos-->
+            <div class="container" id="fundo-1">
+              <h2>grandes conquistas</h2>
+            <div class="card-group"id="cards-1">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="card-group">
+              <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
             
-            
-        <!--div que fecha container-->
-        </div>
+            </div>
 
+
+            <br>
+            <iframe src="https://player.vimeo.com/video/137857207" title="Vimeo video" padding-top="25px"width="100%" height="642px" ></iframe>
+            <br>
+          <!--card de noticias-->
+          <h3>noticias</h3>
+          <br>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagens/area.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagens/area.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagens/area.png" class="card-img-top"  alt="...">
+                <div class="card-body" >
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <footer class="text-center text-white" style="background-color: #cac7c7;">
+            
+            <!-- Grid container -->
+            <div class="container pt-4">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="https://github.com/dan1el-alme1da"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-github"></i
+                    
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- fecha div de colunas-->
+        </div>
+        
         
         <script src="js/bootstrap.bundle.min.js"></script>
     </body>

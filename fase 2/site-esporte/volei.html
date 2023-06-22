@@ -1,39 +1,260 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vôlei</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-</head>
-<div>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-    <span class="fs-4">Site esporte</span>
-        </a>
-    
-        <ul class="nav nav-pills">
-        <li class="nav-item"><a href="inicio.html" class="nav-link" aria-current="page">Início</a></li>
-        <li class="nav-item"><a href="futebol.html" class="nav-link ">Futebol</a></li>
-        <li class="nav-item"><a href="volei.html" class="nav-link active">Volêi</a></li>
-        <li class="nav-item"><a href="natacao.html" class="nav-link">Natação</a></li>
-        <li class="nav-item"><a href="podcast.html" class="nav-link">Podcast</a></li>
-        </ul>
-        </header>
-    </div>
-        <div class="-col10 col-sm-8 col-lg-6">
-        <img src="imagens/voleiball.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">volei</h5>
-        <p class="card-text">O voleibol ou vôlei é um esporte praticado entre duas equipes numa quadra retangular (aberta ou fechada). Ela é dividida por uma rede colocada verticalmente sobre a linha central.
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>volei</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <div>
+      <style>
+        #img-4{
+          height: 500px;
+        }
+        #fundo-1{
+          background-color: rgb(197, 196, 196);
+          height: 700px;
+        }
+        #cards-1{
+          padding-top: 100px;
+        }
+        h2{
+          text-align: center;
+          padding-top: 20px;
+        }
+        #video-1{
+          padding-left: 25%;
+          width: 100%;
+          height: 100%;
+        }
+        h3{
+          padding-top: 50px;
+          text-align: center;
+        }
+        footer{
+          padding-top: 10%;
+        }
+      </style>
+        <div class="container">
+            <!--header-->
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                  <span class="fs-4">Site esporte</span>
+                </a>
+          
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a href="inicio.html" class="nav-link" aria-current="page">Início</a></li>
+                  <li class="nav-item"><a href="futebol.html" class="nav-link ">Futebol</a></li>
+                  <li class="nav-item"><a href="volei.html" class="nav-link active">Volêi</a></li>
+                  <li class="nav-item"><a href="natacao.html" class="nav-link ">Natação</a></li>
+                  <li class="nav-item"><a href="podcast.html" class="nav-link">Podcast</a></li>
+                </ul>
+            </header>
+            <!--card primeira imagem-->
+            <div class="card bg-dark text-white">
+              <img src="imagens/area.png" class="card-img"id=img-4 alt="...">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+              </div>
+            </div>
 
-            O voleibol é jogado com uma bola e inclui diversos passes com as mãos. O objetivo principal é lançar a bola por cima da rede e fazê-la tocar no chão do adversário.</p>
-        <p class="card-text"><small class="text-body-secondary">voleiball</small></p>
+            <!--heroes-->
+            <div class=" col-xxl-8 px--4 py5">
+              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="-col10 col-sm-8 col-lg-6">
+                  <img src="imagens/natacao.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="800" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">história do volei</h1>
+                  <p class="lead">Criado em 1895, nos Estados Unidos, por William George Morgan (1870-1942), o primeiro nome do voleibol foi “mintonette”.
+
+                    A criação de Morgan, que era professor de educação física, foi influenciada por uma série de fatores, tais como: ter um jogo em que o risco de lesão fosse reduzido; em termos físicos, não exigisse muito dos participantes; pudesse ser jogado em quadra fechada e, simplesmente, para inovar as suas aulas.</p>
+                  <div class="d-grid gap-2 d-md-flex">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+
+            <div class="b-example-divider"></div>
+        
+            <!--card de seis tópicos-->
+            <div class="container" id="fundo-1">
+              <h2>grandes conquistas</h2>
+            <div class="card-group"id="cards-1">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="card-group">
+              <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            
+            </div>
+
+
+            <br>
+            <iframe src="https://player.vimeo.com/video/137857207" title="Vimeo video" padding-top="25px"width="100%" height="642px" ></iframe>
+            <br>
+          <!--card de noticias-->
+          <h3>noticias</h3>
+          <br>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagens/area.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagens/area.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagens/area.png" class="card-img-top"  alt="...">
+                <div class="card-body" >
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <footer class="text-center text-white" style="background-color: #cac7c7;">
+            
+            <!-- Grid container -->
+            <div class="container pt-4">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="https://github.com/dan1el-alme1da"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-github"></i
+                    
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- fecha div de colunas-->
         </div>
-    </div>
+        
+        
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
 
-    
-</body>
 </html>
